@@ -5,7 +5,7 @@ import MovieList from './MovieList'
 
 function GenreMovieList() {
   return (
-    <div className='p-10 px-10 md:px-20 '>
+    <div className='p-10 px-10 md:px-20 mt-20'>
         { GenresList.genere.map((item,index)=>index<=3&&(
             <div>
                 <h2 className='text-white text-[27px] 
